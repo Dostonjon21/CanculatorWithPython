@@ -10,7 +10,7 @@ class Calculator:
 
     self.equation=StringVar()
     self.entry_value=''
-
+    Entry(width=17, bg='#fff', font=('Arial Bold', 28), textvariable=self.equation)
 
     root=Tk()
     root.mainloop()
