@@ -1,4 +1,4 @@
 from tkinter import Tk, Entry, Button, StringVar
 
 class Canculator:
-    def__ 
+    def__init__(self):
