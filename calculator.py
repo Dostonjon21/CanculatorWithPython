@@ -12,7 +12,7 @@ class Calculator:
     self.entry_value=''
     Entry(width=17, bg='#fff', font=('Arial Bold', 28), textvariable=self.equation).place(x=0, y=0)
 
-    Button 
+    Button(width=11, height=4, )
 
     def show(self, value):
         self.entry_value+=str(value)
